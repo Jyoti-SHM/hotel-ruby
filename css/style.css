@@ -896,8 +896,8 @@ header.smaller #mainmenu>li::before{
 }
 
 #mainmenu>li.has-child:after {
-  font-family: FontAwesome;
-  content: "\f078";
+  /* font-family: FontAwesome;
+  content: "\f078"; */
   padding-left: 5px;
   font-size: 8px;
   position: relative;
@@ -907,8 +907,8 @@ header.smaller #mainmenu>li::before{
 
 
 #mainmenu>li.has-child:after {
-  font-family: FontAwesome;
-  content: "\f078";
+  /* font-family: FontAwesome;
+  content: "\f078"; */
   padding-left: 5px;
   font-size: 8px;
   position: relative;
@@ -3716,8 +3716,8 @@ address span strong {
 }
 
 .crumb li:after {
-  font-family: "FontAwesome";
-  content: "\f054";
+  /* font-family: "FontAwesome";
+  content: "\f054"; */
   font-size: 10px;
   margin: 0 10px 0 10px;
   opacity: .5;
@@ -16092,14 +16092,14 @@ i.btn-action-hide {
 #back-to-top.hide {
   bottom: -40px;
 }
-
-#back-to-top:before {
+#back-to-top img{width: 18px;}
+/* #back-to-top:before {
   font-family: "FontAwesome";
   font-size: 18px;
   content: "\f106";
   color: #fff !important;
   position: relative;
-}
+} */
 
 /* mouse scroll icon begin */
 
@@ -19815,7 +19815,8 @@ img {
   transform: translateY(-50%);
   display: block;
   cursor: pointer;
-  padding:0;
+      padding: 10px;
+    background: #a40906;
 }
 .owl-custom-nav.menu-float .btn-prev{
   left: 0px;
@@ -19830,8 +19831,8 @@ img {
 .owl-custom-nav .btn-prev:before,
 .owl-custom-nav .btn-next:before{
 display: block;
-font-family:"FontAwesome";
-content:"\f105";
+/* font-family:"FontAwesome";
+content:"\f105"; */
 color:#ffffff;
 padding:5px 0;
 font-size:20px;
@@ -19841,7 +19842,7 @@ background: var(--primary-color);
 text-align: center;
 }
 .owl-custom-nav .btn-prev:before{
-content:"\f104";
+/* content:"\f104"; */
 border-radius:0 20px 20px 0;
 -moz-border-radius:0 20px 20px 0;
 -webkit-border-radius:0 20px 20px 0;
