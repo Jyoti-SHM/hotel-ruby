@@ -1315,14 +1315,15 @@ header:not(.header-mobile) #mainmenu>li:hover ul.mega {
 }
 
 #menu-btn:before {
-  font-family: FontAwesome;
-  content: "\f0c9";
+  /* font-family: FontAwesome;
+  content: "\f0c9"; */
   font-size: 20px;
 }
 
-#menu-btn.menu-open:before{
+/* #menu-btn.menu-open:before{
   content: "\f068";
-}
+  background-image: url(../img/icons/back.png);
+} */
 
 .rtl #menu-btn {
   float: left;
@@ -13686,6 +13687,18 @@ p.slider-teaser{
   .swiper-container {
     min-height: 320px;
   }
+  .sw-overlay{
+  height: 450px !important;
+}
+}
+@media (max-width: 480px) {
+  .swiper,
+.sw-overlay{
+  height: 450px !important;
+  padding-top: 20% !important;
+}
+.swiper-container-wrapper{ height: 450px !important;}
+.v-center{min-height: 64vh !important;}
 }
 .swiper-container-wrapper {
   display: flex;
