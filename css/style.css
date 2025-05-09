@@ -13687,9 +13687,6 @@ p.slider-teaser{
   .swiper-container {
     min-height: 320px;
   }
-  .sw-overlay{
-  height: 450px !important;
-}
 }
 @media (max-width: 480px) {
   .swiper,
